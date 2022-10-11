@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage of Wang Jing</title>
+    <style>
+        .header {
+            background-image: url("img/01.jpg");
+            background-repeat: no-repeat;
+        }
+        .list-info a:link{
+            text-decoration: none;
+        } 
+        .list-info a:visited{
+            color: white;
+        }
+        .list-info a:hover {
+            color: yellow;
+        }
+        ul .list-info{
+            list-style-type: none;
+            margin:0;
+            padding: 0;
+        }
+        .header img{
+            border-radius: 50%;
+        }   
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Jing Wang </h1>
+        <p>My name is Jing Wang, I came from China. I like cat and painting.</p>
+        <img src="img/02.jpg" width="135" hight="135" alt="">
+        <ul class="list-info" >
+            <li> <a href="#cat">cat</a></li>
+            <li> <a href="#painting">funny videos</a></li>
+            <li> <a href="#painting">painting</a></li>
+        </ul>
+        </ul>
+    </div>
+    <div class="info">
+        <p><a name="cat">THis is my little Kitty, Ali.</a></p>
+        <img src="img/c01.png" width="380" hight="120"alt=""><img src="img/c02.jpg" width="380" hight="100" alt="">
+        <br>
+        <p>I like funny video.</p>
+        <iframe width="420" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
+        </iframe>
+        <br>
+        <button><a href="https://www.youtube.com/watch?v=POwVQcZmtjg">Get more funny videos.</a></button>
+    </div>
+    <div>   
+        <form action="">
+            <p name="painting">Which of my paintings do you like?</p>
+            <ul class="pics">
+                <li>
+                    <img src="img/d01.jpg" width="380" hight="100"alt="">
+                    <input type="checkbox" name="01">01
+                </li>
+                <li> 
+                    <img src="img/d02.jpg" width="380" hight="100" alt="">
+                    <input type="checkbox" name="02">02
+                </li>
+            </ul>
+
+        </form>
+    </div>
+    <fieldset class="contact">
+        <legend><a href="">Contact me </a></legend>
+       <br>
+        <a href="https://www.instagram.com/nengmao888/"><img src="img/ins.jpg" width="180" hight="100" alt=""></a>
+        <a href="https://web.whatsapp.com/"><img src="img/whatsapp.jpg" width="180" hight="100" alt=""></a>
+    </fieldset>
+    <div class="comment">
+        <form action="comment-list">
+            <fieldset>
+                <legend>Enter number of picture that you want to comment on:</legend>
+                <input type="number" name="num" id="">
+                <br>
+                <input type="date" name="day" id="">
+                <br>
+                Comment: <input type="text" name="" id="">
+                <br>
+                <button>send</button>
+                <button>edit</button>
+                <button>delete</button>
+            </fieldset>
+        </form>
+    </div>
+    <form action="">
+        <fieldset class="yes">
+            <legend>Do you like this webpage?</legend>
+            Yes:
+            <input type="radio" name="yesorno" value=""><br>
+            Of cause yes:
+            <input type="radio" name="yesorno" value=""><br>
+        </fieldset>
+    </form>
+</body>
+</html>
